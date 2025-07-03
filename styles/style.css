@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* Primera parte de la imagen */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.header {
+    background-color: #1e172f;
+    padding: 6.5px 0;
+}
+
+.container {
+    width: 950px;
+    margin: auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.circle {
+    width: 45px;
+    height: 45px;
+    background: white;
+    color: #2b243b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.texts {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: opacity 0.3s ease;
+}
+
+.nav span {
+    color: #e6e5e8;
+}
+
+.nav a:oscr {
+    opacity: 0.8;
+}
+
+.nav a.oscr {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-download {
+    padding: 12px 20px;
+    border-radius: 4px;
+    background: linear-gradient(45deg, #a239ea, #2bcbf9);
+    font-weight: bold;
+}
+
+
+/* Segunda parten de la imagen*/
+
+
+.cont {
+    display: flex;
+    height: 100vh;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.cont-text {
+    background-color: #2e1a56;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 655px;
+}
+
+.cont-text > * {
+    width: 46%;
+}
+
+.cont-text h1 {
+    font-size: 74px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.cont-text p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.buttons {
+    margin-top: 30px;
+    gap: 10px;
+    display: flex;
+    border: 2px solid rgba(255, 255, 200, 0.3);
+    border-radius: 8px;
+    padding: 4px 5px;
+    width: auto;
+}
+
+.btn {
+    margin: 0;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn.one {
+    background-color: white;
+    color: #d21e61;
+    border: 2px solid white;
+}
+
+.btn.two {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.hojas-grand {
+    background-image: url('../assets/img/hojasFondo.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+
+.cel {
+    height: 450px;
+    width: auto;
+    padding: 0px 140px 0px 0px;
+}
+
+
+/* tercera parten de la imagen*/
+
+
+.compu {
+    background-color: #f5f6fb;
+    padding: 40px 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.compu-titu {
+    text-align: center;
+    font-size: 60px;
+    color: #f50985;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.apar-comput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    gap: 60px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.comput img {
+    width: 500px;
+    height: auto;
+}
+
+.inform {
+    width: 500px;
+    height: auto;
+}
+
+.inform-titu {
+    font-size: 60px;
+    color: #f92ca1;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.teto {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #555;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.listina {
+    list-style: none;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.listina ul {
+    margin-bottom: 5px;
+    color: #444;
+    display: flex;
+}
+
+.listina ul .linia {
+    color: #f92ca1;
+    margin-right: 6px;
+    font-weight: bold;
+}
+
+.listina ul .tituli {
+    color: #f92ca1;
+    font-weight: 600;
+}
+
+
+/* cuarta parte de la imagen  */
+
+.tris {
+    text-align: center;
+    padding: 20px 20px;
+    color: white;
+    background-color: #21133f;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.tiltin {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text-tin {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 60px;
+}
+
+.tris-tris {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.trix {
+    background-color: white;
+    color: #333;
+    border-radius: 6px;
+    width: 280px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trix h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.trix .ros {
+    color: #d21e61;
+}
+
+.renil {
+    background-color: #f5f5f5;
+    width: 116%;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+.valor {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.valor span {
+    display: inline-block;
+    font-size: 14px;
+    color: gray;
+    font-weight: normal;
+    margin-left: 6px;
+}
+
+.lilist {
+    list-style: none;
+    margin: 50px;
+    text-align: center;
+    font-size: 15px;
+    width: 70%;
+}
+
+.lilist li {
+    margin-bottom: 10px;
+    color: #333;
+    display: flex;
+    width: 110%;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.informativ {
+    font-size: 17px;
+    color: #555;
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+
+.boton {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 80%;
+    text-align: center;
+}
+
+.boton.red {
+    background-color: #f50985;
+    color: white;
+}
+
+.boton.gri {
+    background-color: #21133f;
+    color: white;
+}
+
+
+/* parte cinco  */
+
+
+
+.footersit {
+    background-color: white;
+    border-top: 2px solid #21133f;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.fopad {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    color: #555;
+}
+
+.foli .ros {
+    color: #f50985;
+    font-weight: bold;
+}
+
+.fodlits a {
+    text-decoration: none;
+    margin-left: 2px;
+    font-size: 8px;
+    cursor: pointer;
+}
+
+.footersit img {
+    width: 50px;
+    height: 50px;
+}
