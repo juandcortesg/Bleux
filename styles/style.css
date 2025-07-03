@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-weight: 400;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -150,6 +149,13 @@ body {
     background-color: white;
     color: #d21e61;
     border: 2px solid white;
+    font-weight: bold;
+}
+
+.btn.one span {
+    background: linear-gradient(to right, #ef87bd, #f43295);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .btn.two {
@@ -287,7 +293,7 @@ body {
     color: #333;
     border-radius: 6px;
     width: 280px;
-    padding: 30px 20px;
+    padding: 0 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
@@ -349,10 +355,18 @@ body {
     text-align: center;
 }
 
+.sombr {
+    background-color: #f5f5f5;
+    width: 117%;
+    padding: 10px;
+    margin: center;
+    border-radius: 6px;
+}
+
 .boton {
     display: inline-block;
     text-decoration: none;
-    padding: 10px 25px;
+    padding: 15px 2px;
     border-radius: 4px;
     font-weight: bold;
     transition: background-color 0.3s;
@@ -361,7 +375,7 @@ body {
 }
 
 .boton.red {
-    background-color: #f50985;
+    background: linear-gradient(to right, #eb62a8, #f31485);;
     color: white;
 }
 
